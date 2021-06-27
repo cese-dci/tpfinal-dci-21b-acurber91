@@ -721,7 +721,7 @@ U 1 1 60E349DA
 P 10240 3360
 F 0 "J3" H 10320 3402 50  0000 L CNN
 F 1 "ANT" H 10320 3311 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 10240 3360 50  0001 C CNN
+F 2 "Adafruit_PinHeader_2.54mm:Adafruit_Feather_PinHeader_1x01_P2.54mm" H 10240 3360 50  0001 C CNN
 F 3 "~" H 10240 3360 50  0001 C CNN
 	1    10240 3360
 	1    0    0    -1  
@@ -760,7 +760,7 @@ U 1 1 60E781D3
 P 6040 3510
 F 0 "J5" H 5995 3720 50  0000 L CNN
 F 1 "Conn_01x03" H 6120 3461 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6040 3510 50  0001 C CNN
+F 2 "Adafruit_PinHeader_2.54mm:Adafruit_Feather_PinHeader_1x03_P2.54mm" H 6040 3510 50  0001 C CNN
 F 3 "~" H 6040 3510 50  0001 C CNN
 	1    6040 3510
 	1    0    0    -1  
@@ -874,7 +874,7 @@ U 1 1 60EF474F
 P 6035 4560
 F 0 "J6" H 5990 5175 50  0000 L CNN
 F 1 "Conn_01x12" H 6115 4461 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 6035 4560 50  0001 C CNN
+F 2 "Adafruit_PinHeader_2.54mm:Adafruit_Feather_PinHeader_1x12_P2.54mm" H 6035 4560 50  0001 C CNN
 F 3 "~" H 6035 4560 50  0001 C CNN
 	1    6035 4560
 	1    0    0    -1  
@@ -885,7 +885,7 @@ U 1 1 60EFDD6D
 P 6035 6330
 F 0 "J7" H 5990 7145 50  0000 L CNN
 F 1 "Conn_01x16" H 6115 6231 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 6035 6330 50  0001 C CNN
+F 2 "Adafruit_PinHeader_2.54mm:Adafruit_Feather_PinHeader_1x16_P2.54mm" H 6035 6330 50  0001 C CNN
 F 3 "~" H 6035 6330 50  0001 C CNN
 	1    6035 6330
 	1    0    0    -1  

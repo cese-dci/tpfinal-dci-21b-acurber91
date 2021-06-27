@@ -1,4 +1,32 @@
-19212807876425994
+19219307118765377
+Adafruit_PinHeader_2.54mm
+Adafruit_Feather_PinHeader_1x01_P2.54mm
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+Adafruit_PinHeader_2.54mm
+Adafruit_Feather_PinHeader_1x03_P2.54mm
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+Adafruit_PinHeader_2.54mm
+Adafruit_Feather_PinHeader_1x12_P2.54mm
+Through hole straight pin header, 1x12, 2.54mm pitch, single row
+Through hole pin header THT 1x12 2.54mm single row
+0
+12
+12
+Adafruit_PinHeader_2.54mm
+Adafruit_Feather_PinHeader_1x16_P2.54mm
+Through hole straight pin header, 1x16, 2.54mm pitch, single row
+Through hole pin header THT 1x16 2.54mm single row
+0
+16
+16
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
