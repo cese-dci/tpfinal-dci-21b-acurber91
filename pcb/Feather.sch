@@ -79,7 +79,7 @@ P 1175 4045
 F 0 "Y1" H 1125 4200 50  0000 L CNN
 F 1 "32,768 MHz" H 945 3880 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1175 4045 50  0001 C CNN
-F 3 "~" H 1175 4045 50  0001 C CNN
+F 3 "https://abracon.com/datasheets/ABS07AIG.pdf" H 1175 4045 50  0001 C CNN
 	1    1175 4045
 	1    0    0    -1  
 $EndComp
@@ -685,7 +685,7 @@ P 10245 3665
 F 0 "J4" H 10195 3800 50  0000 L CNN
 F 1 "U.FL" H 10340 3665 50  0000 L CNN
 F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 10245 3665 50  0001 C CNN
-F 3 " ~" H 10245 3665 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 10245 3665 50  0001 C CNN
 	1    10245 3665
 	1    0    0    -1  
 $EndComp
