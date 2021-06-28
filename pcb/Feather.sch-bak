@@ -1334,7 +1334,7 @@ Wire Wire Line
 Wire Wire Line
 	10740 990  10740 1165
 Text Notes 7170 6350 0    75   ~ 0
-1) All resistors are 0603 size.\n\n2) All capacitors except for C6, C8, C9 and C10 are 0603 size.\n\n3) Capcitors C6, C8, C9 and C10 are 0805 size.\n\n1) All LEDs are 0805 size.
+1) All resistors are 0603 size.\n\n2) All capacitors except for C6, C8, C9 and C10 are 0603 size.\n\n3) Capcitors C6, C8, C9 and C10 are 0805 size.\n\n4) All LEDs are 0805 size.
 Text Notes 8940 5440 0    100  ~ 0
 Notes
 Connection ~ 9800 3665
@@ -6478,54 +6478,65 @@ Text Notes 5530 5440 0    100  ~ 0
 Reset
 Wire Notes Line
 	6970 6535 4505 6535
+Text Notes 4705 6790 0    100  ~ 0
+Mounting Holes & Fiducials
 $Comp
-L Mechanical:MountingHole H2
-U 1 1 60E99A60
-P 5480 7080
-F 0 "H2" H 5580 7080 50  0000 L CNN
-F 1 "Mounting Hole" H 5580 7035 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 5480 7080 50  0001 C CNN
-F 3 "~" H 5480 7080 50  0001 C CNN
-	1    5480 7080
+L Mechanical:Fiducial FID1
+U 1 1 60ED5498
+P 6295 7230
+F 0 "FID1" H 6380 7276 50  0000 L CNN
+F 1 "Fiducial" H 6380 7185 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 6295 7230 50  0001 C CNN
+F 3 "~" H 6295 7230 50  0001 C CNN
+	1    6295 7230
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5575 7380
+NoConn ~ 4985 7380
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 60E99A72
-P 4815 7130
-F 0 "H1" H 4915 7179 50  0000 L CNN
-F 1 "Mounting Hole w/Pad" H 4915 7088 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4815 7130 50  0001 C CNN
-F 3 "~" H 4815 7130 50  0001 C CNN
-	1    4815 7130
+L Mechanical:MountingHole H4
+U 1 1 60E99A86
+P 5870 7230
+F 0 "H4" H 5970 7230 50  0000 L CNN
+F 1 "Mounting Hole" H 5970 7185 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 5870 7230 50  0001 C CNN
+F 3 "~" H 5870 7230 50  0001 C CNN
+	1    5870 7230
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 60E99A7C
-P 4815 7500
-F 0 "H3" H 4915 7550 50  0000 L CNN
-F 1 "Mounting Hole w/Pad" H 4915 7458 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4815 7500 50  0001 C CNN
-F 3 "~" H 4815 7500 50  0001 C CNN
-	1    4815 7500
+P 5575 7280
+F 0 "H3" H 5675 7330 50  0000 L CNN
+F 1 "Mounting Hole w/Pad" H 5675 7238 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5575 7280 50  0001 C CNN
+F 3 "~" H 5575 7280 50  0001 C CNN
+	1    5575 7280
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
-U 1 1 60E99A86
-P 5480 7450
-F 0 "H4" H 5580 7450 50  0000 L CNN
-F 1 "Mounting Hole" H 5580 7405 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 5480 7450 50  0001 C CNN
-F 3 "~" H 5480 7450 50  0001 C CNN
-	1    5480 7450
+L Mechanical:MountingHole_Pad H1
+U 1 1 60E99A72
+P 4985 7280
+F 0 "H1" H 5085 7329 50  0000 L CNN
+F 1 "Mounting Hole w/Pad" H 5085 7238 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4985 7280 50  0001 C CNN
+F 3 "~" H 4985 7280 50  0001 C CNN
+	1    4985 7280
 	1    0    0    -1  
 $EndComp
-Text Notes 5170 6790 0    100  ~ 0
-Mounting Holes
-NoConn ~ 4815 7230
-NoConn ~ 4815 7600
-Text Notes 5860 7290 0    75   ~ 0
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60E99A60
+P 5280 7230
+F 0 "H2" H 5380 7230 50  0000 L CNN
+F 1 "Mounting Hole" H 5380 7185 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 5280 7230 50  0001 C CNN
+F 3 "~" H 5280 7230 50  0001 C CNN
+	1    5280 7230
+	1    0    0    -1  
+$EndComp
+Text Notes 5155 7100 0    50   ~ 0
 4 X M2.5 Screws
 $EndSCHEMATC
