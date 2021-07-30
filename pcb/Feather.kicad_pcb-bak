@@ -12,10 +12,6 @@
   (page A4)
   (title_block
     (title "Adafruit Feather M0 with LoRa Radio Module")
-    (comment 1 "Approved by: Diego Brengi")
-    (comment 2 "Reviewed by: Gustavo Zocco")
-    (comment 3 "Created by: Agustín Curcio Berardi")
-    (comment 4 "Trabajo Práctico Final | Diseño de Circuitos Impresos")
   )
 
   (layers

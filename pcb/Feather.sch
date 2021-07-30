@@ -19,7 +19,7 @@ U 1 1 60D5A89C
 P 2550 3135
 F 0 "C1" V 2415 3165 50  0000 R CNN
 F 1 "1uF" V 2670 3205 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2550 3135 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2550 3135 50  0001 C CNN
 F 3 "~" H 2550 3135 50  0001 C CNN
 	1    2550 3135
 	0    1    1    0   
@@ -63,7 +63,7 @@ U 1 1 60D52AE9
 P 915 4330
 F 0 "C2" H 1060 4380 50  0000 C CNN
 F 1 "22pF" H 1100 4290 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 915 4330 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 915 4330 50  0001 C CNN
 F 3 "~" H 915 4330 50  0001 C CNN
 	1    915  4330
 	-1   0    0    -1  
@@ -89,7 +89,7 @@ U 1 1 60D6E531
 P 1710 4330
 F 0 "C4" H 1618 4284 50  0000 R CNN
 F 1 "1uF" H 1618 4375 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1710 4330 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1710 4330 50  0001 C CNN
 F 3 "~" H 1710 4330 50  0001 C CNN
 	1    1710 4330
 	-1   0    0    1   
@@ -113,7 +113,7 @@ U 1 1 60D888E2
 P 1435 4330
 F 0 "C3" H 1580 4380 50  0000 C CNN
 F 1 "22pF" H 1620 4290 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1435 4330 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1435 4330 50  0001 C CNN
 F 3 "~" H 1435 4330 50  0001 C CNN
 	1    1435 4330
 	-1   0    0    -1  
@@ -234,7 +234,7 @@ U 1 1 60DD180B
 P 1465 1450
 F 0 "R1" V 1545 1450 50  0000 C CNN
 F 1 "100k" V 1620 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1465 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1465 1450 50  0001 C CNN
 F 3 "~" H 1465 1450 50  0001 C CNN
 	1    1465 1450
 	0    1    1    0   
@@ -244,8 +244,8 @@ L Device:C_Small C5
 U 1 1 60DD2F9B
 P 1080 1655
 F 0 "C5" H 988 1701 50  0000 R CNN
-F 1 "1uF" H 988 1610 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1080 1655 50  0001 C CNN
+F 1 "10uF" H 988 1610 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1080 1655 50  0001 C CNN
 F 3 "~" H 1080 1655 50  0001 C CNN
 	1    1080 1655
 	-1   0    0    -1  
@@ -323,7 +323,7 @@ U 1 1 60DECE86
 P 2815 1655
 F 0 "C7" H 2723 1701 50  0000 R CNN
 F 1 "1uF" H 2723 1610 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2815 1655 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2815 1655 50  0001 C CNN
 F 3 "~" H 2815 1655 50  0001 C CNN
 	1    2815 1655
 	-1   0    0    -1  
@@ -435,7 +435,7 @@ U 1 1 60E0BFFF
 P 5695 1335
 F 0 "J2" H 5650 1445 50  0000 L CNN
 F 1 "S2B-PH-SM4-TB" H 5425 1125 50  0000 L CNN
-F 2 "Connector_JST:JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical" H 5695 1335 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 5695 1335 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5695 1335 50  0001 C CNN
 	1    5695 1335
 	1    0    0    -1  
@@ -516,7 +516,7 @@ U 1 1 60D93783
 P 8065 1120
 F 0 "R3" V 7975 1120 50  0000 C CNN
 F 1 "1k" V 8155 1120 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8065 1120 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8065 1120 50  0001 C CNN
 F 3 "~" H 8065 1120 50  0001 C CNN
 	1    8065 1120
 	0    1    1    0   
@@ -537,7 +537,7 @@ U 1 1 60DA180A
 P 6980 1575
 F 0 "R4" V 6890 1575 50  0000 C CNN
 F 1 "10k" V 7070 1575 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6980 1575 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6980 1575 50  0001 C CNN
 F 3 "~" H 6980 1575 50  0001 C CNN
 	1    6980 1575
 	0    1    1    0   
@@ -629,7 +629,7 @@ U 1 1 60DE7F49
 P 9325 1260
 F 0 "R5" H 9384 1306 50  0000 L CNN
 F 1 "100k" H 9384 1215 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9325 1260 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9325 1260 50  0001 C CNN
 F 3 "~" H 9325 1260 50  0001 C CNN
 	1    9325 1260
 	1    0    0    -1  
@@ -721,7 +721,7 @@ U 1 1 60E349DA
 P 10240 3360
 F 0 "J3" H 10320 3402 50  0000 L CNN
 F 1 "ANT" H 10320 3311 50  0000 L CNN
-F 2 "Adafruit_PinHeader_2.54mm:Adafruit_Feather_PinHeader_1x01_P2.54mm" H 10240 3360 50  0001 C CNN
+F 2 "Adafruit:Adafruit_Feather_PinHeader_1x01_P2.54mm" H 10240 3360 50  0001 C CNN
 F 3 "~" H 10240 3360 50  0001 C CNN
 	1    10240 3360
 	1    0    0    -1  
@@ -760,7 +760,7 @@ U 1 1 60E781D3
 P 5505 3210
 F 0 "J5" H 5460 3420 50  0000 L CNN
 F 1 "Conn_01x03" H 5585 3161 50  0001 L CNN
-F 2 "Adafruit_PinHeader_2.54mm:Adafruit_Feather_PinHeader_1x03_P2.54mm" H 5505 3210 50  0001 C CNN
+F 2 "Adafruit:Adafruit_Feather_PinHeader_1x03_P2.54mm" H 5505 3210 50  0001 C CNN
 F 3 "~" H 5505 3210 50  0001 C CNN
 	1    5505 3210
 	1    0    0    -1  
@@ -874,7 +874,7 @@ U 1 1 60EF474F
 P 5500 4260
 F 0 "J6" H 5455 4875 50  0000 L CNN
 F 1 "Conn_01x12" H 5580 4161 50  0001 L CNN
-F 2 "Adafruit_PinHeader_2.54mm:Adafruit_Feather_PinHeader_1x12_P2.54mm" H 5500 4260 50  0001 C CNN
+F 2 "Adafruit:Adafruit_Feather_PinHeader_1x12_P2.54mm" H 5500 4260 50  0001 C CNN
 F 3 "~" H 5500 4260 50  0001 C CNN
 	1    5500 4260
 	1    0    0    -1  
@@ -885,7 +885,7 @@ U 1 1 60EFDD6D
 P 6540 3895
 F 0 "J7" H 6495 4710 50  0000 L CNN
 F 1 "Conn_01x16" H 6620 3796 50  0001 L CNN
-F 2 "Adafruit_PinHeader_2.54mm:Adafruit_Feather_PinHeader_1x16_P2.54mm" H 6540 3895 50  0001 C CNN
+F 2 "Adafruit:Adafruit_Feather_PinHeader_1x16_P2.54mm" H 6540 3895 50  0001 C CNN
 F 3 "~" H 6540 3895 50  0001 C CNN
 	1    6540 3895
 	1    0    0    -1  
@@ -1224,7 +1224,7 @@ U 1 1 60DE9550
 P 9325 1760
 F 0 "R6" H 9384 1806 50  0000 L CNN
 F 1 "100k" H 9384 1715 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9325 1760 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9325 1760 50  0001 C CNN
 F 3 "~" H 9325 1760 50  0001 C CNN
 	1    9325 1760
 	1    0    0    -1  
@@ -1324,7 +1324,7 @@ U 1 1 61416702
 P 10740 1265
 F 0 "R7" H 10799 1311 50  0000 L CNN
 F 1 "2k2" H 10799 1220 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 10740 1265 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10740 1265 50  0001 C CNN
 F 3 "~" H 10740 1265 50  0001 C CNN
 	1    10740 1265
 	1    0    0    -1  
@@ -1333,8 +1333,8 @@ Wire Wire Line
 	10740 1660 10740 1365
 Wire Wire Line
 	10740 990  10740 1165
-Text Notes 7170 6350 0    75   ~ 0
-1) All resistors are 0603 size.\n\n2) All capacitors except for C6, C8, C9 and C10 are 0603 size.\n\n3) Capcitors C6, C8, C9 and C10 are 0805 size.\n\n4) All LEDs are 0805 size.
+Text Notes 7075 6315 0    60   ~ 0
+1) Originally, all resistors were 0603. For this project, they were all changed to 0805.\n\n2) Capacitors C5, C6, C8, C9 and C10 are 0805 size.\n\n3) Originally, capacitors C1, C2, C3, C4 and C7 were 0603 size. \nFor this project, they were all changed to 0805.\n\n4) All LEDs are 0805 size for better visibility.
 Text Notes 8940 5440 0    100  ~ 0
 Notes
 Connection ~ 9800 3665
@@ -1370,7 +1370,7 @@ U 1 1 60ED5498
 P 6295 7230
 F 0 "FID1" H 6380 7276 50  0000 L CNN
 F 1 "Fiducial" H 6380 7185 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 6295 7230 50  0001 C CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6295 7230 50  0001 C CNN
 F 3 "~" H 6295 7230 50  0001 C CNN
 	1    6295 7230
 	1    0    0    -1  
@@ -1381,9 +1381,9 @@ $Comp
 L Mechanical:MountingHole H4
 U 1 1 60E99A86
 P 5870 7230
-F 0 "H4" H 5970 7230 50  0000 L CNN
+F 0 "H4" H 5815 7355 50  0000 L CNN
 F 1 "Mounting Hole" H 5970 7185 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 5870 7230 50  0001 C CNN
+F 2 "Adafruit:MountingHole_2.5mm" H 5870 7230 50  0001 C CNN
 F 3 "~" H 5870 7230 50  0001 C CNN
 	1    5870 7230
 	1    0    0    -1  
@@ -1392,36 +1392,25 @@ $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 60E99A7C
 P 5575 7280
-F 0 "H3" H 5675 7330 50  0000 L CNN
+F 0 "H3" H 5520 7455 50  0000 L CNN
 F 1 "Mounting Hole w/Pad" H 5675 7238 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5575 7280 50  0001 C CNN
+F 2 "Adafruit:MountingHole_2.5mm_Pad_TopOnly" H 5575 7280 50  0001 C CNN
 F 3 "~" H 5575 7280 50  0001 C CNN
 	1    5575 7280
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 60E99A72
-P 4985 7280
-F 0 "H1" H 5085 7329 50  0000 L CNN
-F 1 "Mounting Hole w/Pad" H 5085 7238 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4985 7280 50  0001 C CNN
-F 3 "~" H 4985 7280 50  0001 C CNN
-	1    4985 7280
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60E99A60
 P 5280 7230
-F 0 "H2" H 5380 7230 50  0000 L CNN
+F 0 "H2" H 5225 7355 50  0000 L CNN
 F 1 "Mounting Hole" H 5380 7185 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 5280 7230 50  0001 C CNN
+F 2 "Adafruit:MountingHole_2.5mm" H 5280 7230 50  0001 C CNN
 F 3 "~" H 5280 7230 50  0001 C CNN
 	1    5280 7230
 	1    0    0    -1  
 $EndComp
-Text Notes 5155 7100 0    50   ~ 0
+Text Notes 5130 7565 0    50   ~ 0
 4 X M2.5 Screws
 $Bitmap
 Pos 10795 6385
@@ -6443,4 +6432,15 @@ AA 7E 27 93 75 AC EF 4F 5F FF A7 D6 AD 3B 65 EA B4 69 9F 6D D6 DE 7A F1 CF 9D 32
 17 63 BE 66 E9 C2 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 60E99A72
+P 4985 7280
+F 0 "H1" H 4930 7455 50  0000 L CNN
+F 1 "Mounting Hole w/Pad" H 5085 7238 50  0001 L CNN
+F 2 "Adafruit:MountingHole_2.5mm_Pad_TopOnly" H 4985 7280 50  0001 C CNN
+F 3 "~" H 4985 7280 50  0001 C CNN
+	1    4985 7280
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
