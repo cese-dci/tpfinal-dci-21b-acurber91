@@ -1333,8 +1333,8 @@ Wire Wire Line
 	10740 1660 10740 1365
 Wire Wire Line
 	10740 990  10740 1165
-Text Notes 7125 6240 0    60   ~ 0
-1) Due to space limitations, all resistors are 0603 size.\n\n2) Capacitors C5, C6, C8, C9 and C10 are 0805 size.\n\n3) Due to space limitations, capacitors C1, C2, C3, C4 and C7 are 0603 size.\n\n4) All LEDs are 0805 size for better visibility.
+Text Notes 7075 6315 0    60   ~ 0
+1) Originally, all resistors were 0603. For this project, they were all changed to 0805.\n\n2) Capacitors C5, C6, C8, C9 and C10 are 0805 size.\n\n3) Originally, capacitors C1, C2, C3, C4 and C7 were 0603 size. \nFor this project, they were all changed to 0805.\n\n4) All LEDs are 0805 size for better visibility.
 Text Notes 8940 5440 0    100  ~ 0
 Notes
 Connection ~ 9800 3665
