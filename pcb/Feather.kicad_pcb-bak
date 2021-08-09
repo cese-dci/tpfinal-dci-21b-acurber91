@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 67)
+    (drawings 68)
     (tracks 0)
     (zones 0)
     (modules 39)
@@ -1779,6 +1779,9 @@
     )
   )
 
+  (gr_text "8) For compatibility reasons, PCB height can't be\nmodified." (at 224.917 158.877) (layer Dwgs.User) (tstamp 61108AFB)
+    (effects (font (size 1.2 1.2) (thickness 0.15)) (justify left))
+  )
   (gr_text EN (at 139.446 82.423) (layer F.SilkS) (tstamp 6110892C)
     (effects (font (size 0.889 0.8) (thickness 0.15)))
   )
