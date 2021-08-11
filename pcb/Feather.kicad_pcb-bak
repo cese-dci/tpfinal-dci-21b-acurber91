@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title "Adafruit Feather M0 with LoRa Radio Module")
+    (title "Adafruit Feather M0 with LoRa Radio Module Adaptation")
     (comment 1 "Approved by: Diego Brengi")
     (comment 2 "Reviewed by: Gustavo Zocco")
     (comment 3 "Created by: Agustín Curcio Berardi")
@@ -208,7 +208,6 @@
     (add_net "Net-(H1-Pad1)")
     (add_net "Net-(H3-Pad1)")
     (add_net "Net-(J1-Pad4)")
-    (add_net "Net-(J3-Pad1)")
     (add_net "Net-(R1-Pad1)")
     (add_net "Net-(R3-Pad1)")
     (add_net "Net-(R4-Pad1)")
@@ -222,6 +221,16 @@
     (add_net "Net-(U1-Pad48)")
     (add_net "Net-(U2-Pad4)")
     (add_net "Net-(U4-Pad12)")
+  )
+
+  (net_class CPW ""
+    (clearance 0.2)
+    (trace_width 1)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net "Net-(J3-Pad1)")
   )
 
   (net_class Power ""
@@ -1986,11 +1995,11 @@
   (gr_line (start 171.196 99.822) (end 171.196 82.042) (layer Edge.Cuts) (width 0.05) (tstamp 60DA6DC2))
   (gr_line (start 114.173 82.042) (end 114.173 99.822) (layer Edge.Cuts) (width 0.05))
 
-  (via (at 140.589 90.424) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 138.993 92.5155) (end 138.171257 92.5155) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 137.180883 91.525126) (end 133.833874 91.525126) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 133.833874 91.525126) (end 132.9055 92.4535) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 138.171257 92.5155) (end 137.180883 91.525126) (width 0.25) (layer F.Cu) (net 1))
+  (via (at 140.589 90.424) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 132.9055 94.1095) (end 135.1915 94.1095) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 132.9055 90.5535) (end 135.1915 90.5535) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 131.445 92.014) (end 129.9845 90.5535) (width 0.25) (layer F.Cu) (net 2))
