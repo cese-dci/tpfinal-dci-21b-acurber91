@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Adafruit Feather M0 with LoRa Radio Module"
+Title "Adafruit Feather M0 with LoRa Radio Module Adaptation"
 Date "2021-06-26"
 Rev "A"
 Comp ""
@@ -80,6 +80,7 @@ F 0 "Y1" H 1125 4120 50  0000 L CNN
 F 1 "32,768 MHz" H 945 3800 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1175 3965 50  0001 C CNN
 F 3 "https://abracon.com/datasheets/ABS07AIG.pdf" H 1175 3965 50  0001 C CNN
+F 4 "ABS07AIG-32.768KHZ-D-T" H 1175 3965 50  0001 C CNN "Manf#"
 	1    1175 3965
 	1    0    0    -1  
 $EndComp
@@ -155,6 +156,7 @@ F 0 "SW1" H 5600 5990 50  0000 C CNN
 F 1 "KMR2" H 5600 5750 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2" H 5600 5840 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1479/kmr2.pdf" H 5600 5840 50  0001 C CNN
+F 4 "KMR211GLFS" H 5600 5840 50  0001 C CNN "Manf#"
 	1    5600 5840
 	1    0    0    -1  
 $EndComp
@@ -189,6 +191,7 @@ F 0 "U2" H 1830 1695 50  0000 C CNN
 F 1 "AP2112K-3.3" H 1990 1100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1990 1775 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 1990 1550 50  0001 C CNN
+F 4 "AP2112K-3.3TRG1" H 1990 1450 50  0001 C CNN "Manf#"
 	1    1990 1450
 	1    0    0    -1  
 $EndComp
@@ -385,9 +388,10 @@ L Connector:USB_B_Micro J1
 U 1 1 60DFD680
 P 4300 1335
 F 0 "J1" H 4140 1690 50  0000 C CNN
-F 1 "10118192" H 4525 980 50  0000 C CNN
+F 1 "MicroUSB" H 4525 980 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 4450 1285 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 4450 1285 50  0001 C CNN
+F 4 "10118192-0001LF" H 4300 1335 50  0001 C CNN "Manf#"
 	1    4300 1335
 	1    0    0    -1  
 $EndComp
@@ -437,6 +441,7 @@ F 0 "J2" H 5650 1445 50  0000 L CNN
 F 1 "S2B-PH-SM4-TB" H 5425 1125 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 5695 1335 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5695 1335 50  0001 C CNN
+F 4 "S2B-PH-SM4-TB" H 5695 1335 50  0001 C CNN "Manf#"
 	1    5695 1335
 	1    0    0    -1  
 $EndComp
@@ -471,9 +476,10 @@ L Battery_Management:MCP73831-2-OT U3
 U 1 1 60D7FC5B
 P 7575 1475
 F 0 "U3" H 7315 1735 50  0000 C CNN
-F 1 "MCP73831T-2ACI/OT" H 7575 1145 50  0000 C CNN
+F 1 "MCP73831T" H 7575 1145 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7625 1225 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 7425 1425 50  0001 C CNN
+F 4 "MCP73831T-2ACI/OT" H 7575 1475 50  0001 C CNN "Manf#"
 	1    7575 1475
 	1    0    0    -1  
 $EndComp
@@ -482,9 +488,10 @@ L MCU_Microchip_SAMD:ATSAMD21G18A-M U1
 U 1 1 60D50CC0
 P 3070 5250
 F 0 "U1" H 2510 7120 50  0000 C CNN
-F 1 "ATSAMD21G18A-M" H 3170 5250 50  0000 C CNN
+F 1 "ATSAMD21G18A" H 3170 5250 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 4470 3400 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf" H 3070 6250 50  0001 C CNN
+F 4 "ATSAMD21G18A-MUT" H 3070 5250 50  0001 C CNN "Manf#"
 	1    3070 5250
 	1    0    0    -1  
 $EndComp
@@ -641,9 +648,10 @@ L RF_Module:RFM95W-915S2 U4
 U 1 1 60D7C379
 P 8445 3965
 F 0 "U4" H 8090 4440 50  0000 C CNN
-F 1 "RFM95W-915S2" H 8930 3395 50  0000 C CNN
+F 1 "RFM95W" H 8730 3395 50  0000 C CNN
 F 2 "RF_Module:HOPERF_RFM9XW_SMD" H 5145 5615 50  0001 C CNN
 F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 5145 5615 50  0001 C CNN
+F 4 "RFM95W-915S2" H 8445 3965 50  0001 C CNN "Manf#"
 	1    8445 3965
 	1    0    0    -1  
 $EndComp
@@ -683,9 +691,10 @@ L Connector:Conn_Coaxial J4
 U 1 1 60E2216E
 P 10245 3665
 F 0 "J4" H 10195 3800 50  0000 L CNN
-F 1 "U.FL-R-SMT-1" H 10340 3665 50  0000 L CNN
+F 1 "U.FL" H 10340 3665 50  0000 L CNN
 F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 10245 3665 50  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en" H 10245 3665 50  0001 C CNN
+F 4 "U.FL-R-SMT-1(10)" H 10245 3665 50  0001 C CNN "Manf#"
 	1    10245 3665
 	1    0    0    -1  
 $EndComp
@@ -965,8 +974,6 @@ D0
 Text Label 2000 4850 0    50   ~ 0
 MISO
 NoConn ~ 2000 4950
-Text Label 2050 5050 0    50   ~ 0
-D2
 Text Label 2000 5150 0    50   ~ 0
 D5
 Text Label 2000 5250 0    50   ~ 0
@@ -979,8 +986,6 @@ Text Label 2000 5550 0    50   ~ 0
 D12
 Text Label 2000 5650 0    50   ~ 0
 D6
-Text Label 2050 5750 0    50   ~ 0
-D7
 Text Label 2000 5850 0    50   ~ 0
 SDA
 Text Label 2000 5950 0    50   ~ 0
