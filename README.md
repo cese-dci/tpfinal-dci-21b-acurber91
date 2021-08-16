@@ -10,7 +10,22 @@ Este repositorio contiene el Trabajo Práctico Final de la asignatura de Diseño
 
 <p align="center">
     <img src="doc/Render_Isometric_Top_B.png"><br>
-    <b>Figura 1</b>. Render de la adaptación realizada. 
+    <b>Figura 1</b>. Vista isométrica superior de la adaptación realizada. 
+</p>
+
+<p align="center">
+    <img src="doc/Render_Isometric_Bottom_A.png"><br>
+    <b>Figura 2</b>. Vista isométrica inferior de la adaptación realizada. 
+</p>
+
+<p align="center">
+    <img src="doc/Render_Top_View.png"><br>
+    <b>Figura 3</b>. Vista superior de la adaptación realizada. 
+</p>
+
+<p align="center">
+    <img src="doc/Render_Bottom_View.png"><br>
+    <b>Figura 4</b>. Vista inferior de la adaptación realizada. 
 </p>
 
 ## Licencia de este trabajo ##
