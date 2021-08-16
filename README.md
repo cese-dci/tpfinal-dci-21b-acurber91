@@ -28,6 +28,15 @@ Este repositorio contiene el Trabajo Práctico Final de la asignatura de Diseño
     <b>Figura 4</b>. Vista inferior de la adaptación realizada. 
 </p>
 
+## Detalles de la adaptación ##
+
+Este Trabajo Práctico realizó una adaptación de la placa utilizada como propuesta para poder cumplir con los requerimientos establecidos en la materia. Así:
+
+- Se modificaron los tamaños de los componentes pasivos. Se pasó de tamaño 0603 a 0805.
+- El cambio de tamaño de los componentes pasivos requirió modificar las dimensiones del circuito impreso. La altura no se modificó para garantizar la compatibilidad con otras placas de la línea Feather. No obstante, sí se modificó el largo total de la misma para hacer lugar a componentes de mayor tamaño. El circuito impreso final es 6,223 mm más largo que el original.
+- Se agregó un segundo fiducial que no estaba presente en el diseño original.
+- Se adoptó HASL como terminación superficial en lugar de ENIG.
+
 ## Licencia de este trabajo ##
 Designed by Limor Fried/Ladyada for Adafruit Industries. Creative Commons Attribution/Share-Alike. See License.txt for additional information.
 
